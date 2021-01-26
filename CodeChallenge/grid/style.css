@@ -16,7 +16,6 @@
     padding: 0.8rem;
     margin: 0%;
     font-family: 'Inconsolata', monospace;
-
 }
 .header{
     width: 90%;
@@ -32,7 +31,6 @@
     margin: 3rem 1rem;
 }
 .right{
-    
     padding: 1rem;
     line-height: 3rem;
     font-size: 1.5em;
@@ -49,10 +47,11 @@ button{
     font-family: 'Inconsolata', monospace;
 }
 
+
+/* ====================================== Start of media Query ================================== */
+
+
 @media (min-width:480px){
-    .left{
-        width: 100%;
-    }
     .grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -68,6 +67,7 @@ button{
     }
     .left{
         grid-area: left;
+        width: 100%;
     }
     .right{
         padding: 2rem;
